@@ -2,14 +2,11 @@
 
 > 코딩 테스트 대비를 위한 백준, 프로그래머스 문제 풀이 스터디입니다.
 
-<br>
-
 기간 : 2023. 01. 07 ~   
 일시 : 매주 토요일 14:00
 
 백준 그룹 : [이 코드로 잠이 오냐](https://www.acmicpc.net/group/16402)
 
-<br>
 
 ### 🎈참여자
 |                 이름                  |                                                  solved.ac                                                   |
@@ -17,7 +14,6 @@
 | [유원준](https://github.com/wonjunYou) | [![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=youwjune)](https://solved.ac/youwjune) |
 |  [정동준](https://github.com/dj-1087)  |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=codest)](https://solved.ac/codest)|
 |  [김민서](https://github.com/kingmingseo)  |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=multi1971)](https://solved.ac/multi1971)|
-
 
 ### 🚅 학습 기록
 |주차|wiki 링크|
