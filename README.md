@@ -14,8 +14,14 @@
 |  [정동준](https://github.com/dj-1087)  |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=codest)](https://solved.ac/codest)|
 |  [김민서](https://github.com/kingmingseo)  |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=multi1971)](https://solved.ac/multi1971)|
 
+<br>
+
 ### 🚅 학습 기록
-작성중입니다.
+|주차|wiki 링크|
+|:---:|-------|
+|1주차|[코딩 테스트를 위한 파이썬](https://github.com/wonjunYou/PS_study/wiki/1%EC%A3%BC%EC%B0%A8---%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC)
+
+<br>
 
 ### ☘ 커밋 규칙
 * 자신의 github 닉네임으로 브랜치를 만들어 커밋한다.
