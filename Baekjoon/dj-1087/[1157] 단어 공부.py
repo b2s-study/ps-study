@@ -2,7 +2,7 @@ import sys
 
 input = sys.stdin.readline
 
-word = input().rsplit('/n')[0].upper()
+word = input().rstrip().upper()
 alphabet_set = set(word)
 max_count = 0
 count_dict = {}
@@ -20,5 +20,3 @@ if len(result) > 1:
   print("?")
 elif len(result) == 1:
   print(result.pop())
-else:
-  print("error")
