@@ -1,3 +1,5 @@
-temp=[1,2,3,4]
+from collections import deque
 
-print(temp[0:4])
+deq=deque()
+
+print(deq)
