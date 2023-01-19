@@ -11,9 +11,10 @@
 ### 🎈참여자
 |                 이름                  |                                                  solved.ac                                                   |
 |:-----------------------------------:|:------------------------------------------------------------------------------------------------------------:|
-| [유원준](https://github.com/wonjunYou) | [![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=youwjune)](https://solved.ac/youwjune) |
-|  [정동준](https://github.com/dj-1087)  |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=codest)](https://solved.ac/codest)|
-|  [김민서](https://github.com/kingmingseo)  |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=multi1971)](https://solved.ac/multi1971)|
+| [유원준](https://github.com/wonjunYou) |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=youwjune)](https://solved.ac/youwjune) |
+| [정동준](https://github.com/dj-1087)  |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=codest)](https://solved.ac/codest)|
+| [김민서](https://github.com/kingmingseo)|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=multi1971)](https://solved.ac/multi1971)|
+| [최고운](https://github.com/gwcat0506)|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=gwcat0506)](https://solved.ac/gwcat0506)|
 
 ### 🚅 학습 기록
 |주차|wiki 링크|
