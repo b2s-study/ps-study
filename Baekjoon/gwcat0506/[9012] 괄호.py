@@ -75,7 +75,6 @@ for _ in range(N):
 
 #stack 이용한 () 문제
 
-#stack 이용한 () 문제
 import sys
 
 
