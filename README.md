@@ -12,13 +12,18 @@
 |                 이름                  |                                                  solved.ac                                                   |
 |:-----------------------------------:|:------------------------------------------------------------------------------------------------------------:|
 | [유원준](https://github.com/wonjunYou) | [![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=youwjune)](https://solved.ac/youwjune) |
-|  [정동준](https://github.com/dj-1087)  |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=codest)](https://solved.ac/codest)|
-|  [김민서](https://github.com/kingmingseo)  |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=multi1971)](https://solved.ac/multi1971)|
+| [정동준](https://github.com/dj-1087)|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=codest)](https://solved.ac/codest)|
+| [최고운](https://github.com/gwcat0506)|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=gwcat0506)](https://solved.ac/gwcat0506)|
+| [김민서](https://github.com/kingmingseo)|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=multi1971)](https://solved.ac/multi1971)|
+
+<br>
 
 ### 🚅 학습 기록
 |주차|wiki 링크|
-|:---:|-------|
-|1주차|[코딩 테스트를 위한 파이썬](https://github.com/wonjunYou/PS_study/wiki/1%EC%A3%BC%EC%B0%A8---%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC)
+|:---:|:-------:|
+|1주차|[코딩 테스트를 위한 파이썬](https://github.com/wonjunYou/PS_study/wiki/1%EC%A3%BC%EC%B0%A8---%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC)|
+|2주차|[스택, 큐, 덱](https://github.com/wonjunYou/PS_study/wiki/2%EC%A3%BC%EC%B0%A8---%EC%8A%A4%ED%83%9D,-%ED%81%90,-%EB%8D%B1)|
+|3주차|[우선순위 큐, 힙](https://github.com/wonjunYou/PS_study/wiki/3%EC%A3%BC%EC%B0%A8---%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%81%90,-%ED%9E%99)|
 
 <br>
 
