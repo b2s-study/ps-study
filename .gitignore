@@ -1,1 +1,14 @@
+
+### MAC OS files ###
 .DS_Store
+
+### INTELLiJ IDEA ###
+.idea/
+
+### Visual Studio Code ###
+.vscode/
+
+### Package Files ###
+*.war
+*.ear
+
