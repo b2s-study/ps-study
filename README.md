@@ -20,11 +20,11 @@
 
 
 ### 🚅 학습 기록
-|주차|wiki 링크|
-|:---:|:-------:|
-|1주차|[코딩 테스트를 위한 파이썬](https://github.com/wonjunYou/PS_study/wiki/1%EC%A3%BC%EC%B0%A8---%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC)|
-|2주차|[스택, 큐, 덱](https://github.com/wonjunYou/PS_study/wiki/2%EC%A3%BC%EC%B0%A8---%EC%8A%A4%ED%83%9D,-%ED%81%90,-%EB%8D%B1)|
-|3주차|[우선순위 큐, 힙](https://github.com/wonjunYou/PS_study/wiki/3%EC%A3%BC%EC%B0%A8---%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%81%90,-%ED%9E%99)|
+|주차|wiki 링크|발표자|
+|:---:|:-------:|:---:|
+|1주차|[코딩 테스트를 위한 파이썬](https://github.com/wonjunYou/PS_study/wiki/1%EC%A3%BC%EC%B0%A8---%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC)|유원준|
+|2주차|[스택, 큐, 덱](https://github.com/wonjunYou/PS_study/wiki/2%EC%A3%BC%EC%B0%A8---%EC%8A%A4%ED%83%9D,-%ED%81%90,-%EB%8D%B1)|유원준|
+|3주차|[우선순위 큐, 힙](https://github.com/wonjunYou/PS_study/wiki/3%EC%A3%BC%EC%B0%A8---%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%81%90,-%ED%9E%99)|정동준|
 
 <br>
 
