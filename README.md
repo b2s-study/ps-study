@@ -25,6 +25,7 @@
 |1주차|[코딩 테스트를 위한 파이썬](https://github.com/wonjunYou/PS_study/wiki/1%EC%A3%BC%EC%B0%A8---%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC)|유원준|
 |2주차|[스택, 큐, 덱](https://github.com/wonjunYou/PS_study/wiki/2%EC%A3%BC%EC%B0%A8---%EC%8A%A4%ED%83%9D,-%ED%81%90,-%EB%8D%B1)|유원준|
 |3주차|[우선순위 큐, 힙](https://github.com/wonjunYou/PS_study/wiki/3%EC%A3%BC%EC%B0%A8---%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%81%90,-%ED%9E%99)|정동준|
+|4주차|[이분 탐색, 투 포인터](https://github.com/wonjunYou/PS_study/wiki/4%EC%A3%BC%EC%B0%A8---%EC%9D%B4%EB%B6%84-%ED%83%90%EC%83%89,-%ED%88%AC-%ED%8F%AC%EC%9D%B8%ED%84%B0)|김민서|
 
 <br>
 
