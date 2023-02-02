@@ -1,16 +1,28 @@
 import sys
 
+# dict를 이용한 풀이 O(nlogn + n)
+
 input = sys.stdin.readline
 
-def deduplicate(numbers):
-    arr = []
-    arr.append(numbers[0])
+n = int(input().rstrip('\n'))
 
-    for idx in range(1, len(numbers)):
-        if (numbers[idx] != numbers[idx - 1]):
-            arr.append(numbers[idx])
+numbers = list(map(int, input().rstrip('\n').split()))
 
-    return arr
+new_numbers = list(set(numbers))
+new_numbers.sort()
+
+number_idx = dict()
+
+for idx in range(len(new_numbers)):
+    number_idx[new_numbers[idx]] = idx
+
+for number in numbers:
+    print(number_idx[number], end=" ")
+
+''' 이분 탐색 풀이 : O(nlogn + nlogn)
+import sys
+
+input = sys.stdin.readline
 
 def find_index(target, new_numbers):
     start = 0
@@ -34,10 +46,12 @@ n = int(input().rstrip('\n'))
 
 numbers = list(map(int, input().rstrip('\n').split()))
 
-new_numbers = deduplicate(sorted(numbers))
+new_numbers = list(set(numbers))
+new_numbers.sort()
 
 result = []
 for number in numbers:
     result.append(find_index(number, new_numbers))
 
 print(*result)
+'''
