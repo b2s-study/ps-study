@@ -15,7 +15,7 @@
 | [정동준](https://github.com/dj-1087)|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=codest)](https://solved.ac/codest)|
 | [최고운](https://github.com/gwcat0506)|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=gwcat0506)](https://solved.ac/gwcat0506)|
 | [김민서](https://github.com/kingmingseo)|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=multi1971)](https://solved.ac/multi1971)|
-| [김지나](https://github.com/ina4066)|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=rindeo423)](https://solved.ac/rindeo423)
+| [김지나](https://github.com/jina4066)|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=rindeo423)](https://solved.ac/rindeo423)
 
 <br>
 
