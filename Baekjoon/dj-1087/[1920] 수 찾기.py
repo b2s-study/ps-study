@@ -1,58 +1,41 @@
-# 이슈사항
-# - 이분탐색으로 시간초과 뜸
-
 import sys
 
 
-def binary_search2(num, arr):
-    # 재귀로 풀 경우 시간 초과. why?
-    if len(arr) == 0:
-        return "0"
-
-    mid_idx = len(arr) // 2
-    if num < arr[mid_idx]:
-        return binary_search(num, arr[:mid_idx])
-    elif arr[mid_idx] < num:
-        return binary_search(num, arr[mid_idx+1:])
-    else:
-        return "1"
-
-
 def binary_search(num, arr):
-    # while로 풀어도 시간 초과? why??
     start = 0
-    end = len(arr)
+    end = len(arr) - 1
     while (True):
-        if len(arr[start:end]) == 0:
+        if start > end:
             break
 
         mid = (start + end) // 2
         if num < arr[mid]:
-            end = mid
+            end = mid - 1
+
         elif num > arr[mid]:
             start = mid + 1
-        else:
-            return "1"
 
-    return "0"
+        else:
+            return 1
+
+    return 0
 
 
 input = sys.stdin.readline
-print = sys.stdout.write
 
 N = int(input())
 A = list(map(int, input().split()))
 # A = set(map(int, input().split()))
 M = int(input())
-to_find = list(map(int, input().split()))
+search_list = list(map(int, input().split()))
 
 A.sort()
-for num in to_find:
+for num in search_list:
     result = binary_search(num, A)
-    print(result + "\n")
+    print(result)
 
-# for num in to_find:
+# for num in search_list:
 #     if num in A:
-#         print("1\n")
+#         print(1)
 #     else:
-#         print("0\n")
+#         print(0)
