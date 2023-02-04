@@ -1,91 +1,41 @@
-# 이슈사항 - 시간 초과
+# - 이슈 사항: 정답 처리가 말이 안 돼... 억울함...
+# 아래 반례
+# 5
+# 3
+# 6
+# 15
+# 1
+# 2
+# 답: 6
+# 출력: 15
+
 
 import sys
-import heapq
-
-# - 투 포인터 방식
-
-
-def two_pointer(array, sum_value):
-    # array에 x, y, z 중 하나 제외(예> x)
-    # array에 sum(x, y, z)에 해당한다고 예상하는 요소(d) 제외
-    # sum_value == y + z = d - x
-
-    left, right = 0, 1
-    while (True):
-        if (left < 0) or (right >= len(array)):
-            break
-
-        current_sum_value = sum([array[left], array[right]])
-        # print("left, right, sum", left, right, current_sum_value)
-        if current_sum_value > sum_value:
-            left -= 1
-        elif current_sum_value < sum_value:
-            if left == right - 1:
-                right += 1
-            else:
-                left += 1
-        else:
-            return sum_value
-    return None
-
 
 input = sys.stdin.readline
 
 N = int(input())
-number_list = [int(input()) for _ in range(N)]
-number_list.sort()
+U = [int(input()) for _ in range(N)]
 
-max_heap = []
-for i in range(len(number_list)):
-    if i >= len(number_list) - 3:
-        break
+two_sum_set = set()
+for i in range(len(U)):
+    for j in range(len(U)):
+        # 이거 빼니깐 통과된다고??
+        # if i == j:
+        #     continue
 
-    number = number_list[i]
-    for j in range(len(number_list) - 1, -1, -1):
-        if j <= i + 2:
-            break
-        array = number_list[:i] + number_list[i+1:j]
-        sum_value = number_list[j] - number
-        result = two_pointer(array, sum_value)
-        # print("array, sum_value, result>>", array, sum_value, result)
-        if result:
-            d = result + number
-            heapq.heappush(max_heap, (-1*d, d))
+        two_sum = U[i] + U[j]
+        two_sum_set.add(two_sum)
 
-print(max_heap[0][1])
+max_d = 0
+# U.sort()
+for i in range(len(U)):
+    for j in range(i+1, len(U)):
+        # if i == j:
+        #     continue
+        two_sum = U[j] - U[i]
+        if two_sum in two_sum_set:
+            d = two_sum + U[i]
+            max_d = max(max_d, d)
 
-# ---------------------
-# - 브루트포스 방식
-# def get_d_list(case=set()):
-#     global number_list, U, d_list
-#     # print(case)
-#     if len(case) == 3:
-#         d = sum(case)
-#         if d in U:
-#             d_list.append(d)
-#             # print(d_list)
-#         return
-
-#     for number in number_list:
-#         if number not in case:
-#             sub_case = case.copy()
-#             sub_case.add(number)
-#             get_d_list(sub_case)
-
-
-# input = sys.stdin.readline
-
-# N = int(input())
-# number_list = []
-# U = set()
-# for _ in range(N):
-#     number = int(input())
-#     number_list.append(number)
-#     U.add(number)
-
-# number_list.sort()
-# d_list = []
-# get_d_list()
-# max_d = max(d_list)
-# print(max_d)
+print(max_d)
