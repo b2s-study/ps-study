@@ -3,7 +3,7 @@
 > 코딩 테스트 대비를 위한 백준, 프로그래머스 문제 풀이 스터디입니다.
 
 기간 : 2023. 01. 07 ~   
-일시 : 매주 토요일 14:00
+일시 : 매주 일요일 10:30
 
 백준 그룹 : [이 코드로 잠이 오냐](https://www.acmicpc.net/group/16402)
 
@@ -27,6 +27,7 @@
 |2주차|[스택, 큐, 덱](https://github.com/wonjunYou/PS_study/wiki/2%EC%A3%BC%EC%B0%A8---%EC%8A%A4%ED%83%9D,-%ED%81%90,-%EB%8D%B1)|유원준|
 |3주차|[우선순위 큐, 힙](https://github.com/wonjunYou/PS_study/wiki/3%EC%A3%BC%EC%B0%A8---%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%81%90,-%ED%9E%99)|정동준|
 |4주차|[이분 탐색, 투 포인터](https://github.com/wonjunYou/PS_study/wiki/4%EC%A3%BC%EC%B0%A8---%EC%9D%B4%EB%B6%84-%ED%83%90%EC%83%89,-%ED%88%AC-%ED%8F%AC%EC%9D%B8%ED%84%B0)|김민서|
+|5주차|[BFS, DFS](https://github.com/wonjunYou/PS_study/wiki/5%EC%A3%BC%EC%B0%A8---BFS,-DFS)|유원준|
 
 <br>
 
