@@ -25,7 +25,7 @@ while (True):
         else:
             total_budget += mid_budget
 
-    if total_budget <= limit:
+    if total_budget < limit:
         min_budget = mid_budget + 1
     elif total_budget > limit:
         max_budget = mid_budget - 1
