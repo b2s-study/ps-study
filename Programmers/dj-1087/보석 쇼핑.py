@@ -1,3 +1,12 @@
+# ======================= solve ======================= #
+# 핵심 로직 - 투 포인터
+# 1. 투 포인터를 이용하여 구간을 조절한다.
+# 2. 구간의 길이가 최소가 되는 구간을 찾는다.
+# 3. 구간의 길이가 최소가 되는 구간이 여러 개일 경우, 시작점이 가장 작은 구간을 찾는다.
+#
+# 시간복잡도 - O(N^2), 투 포인터 - N^2
+# 공간복잡도 - O(N), set - N
+
 def solution(gems):
     answer = [1, len(gems)]
     current_types = set()
@@ -22,8 +31,7 @@ def solution(gems):
 
                 first += 1
                 current_state[first_gem] -= 1
-        # print("[first+1, last+1]:", [first+1, last+1])
-        # print("len(current_types), len(current_state):", len(current_types), len(current_state))
+
         if len(current_types) == len(current_state):
             if last - first < answer[1] - answer[0]:
                 answer = [first+1, last+1]
