@@ -18,6 +18,9 @@ density_list = list(map(int, input().split()))
 # 4. 만약 혼합한 용액 농도의 절댓값이 이전 혼합 용액 농도의 절댓값보다 작다면,
 #    이전 혼합 용액 농도의 절댓값을 현재 값으로 갱신
 # 2-4를 "왼쪽 인덱스 > 오른쪽 인덱스"가 될 때까지 계속 수행
+#
+# 시간복잡도 - O(NlogN), sort() - NlogN, 투 포인터 - N
+
 
 density_list.sort()
 absolute_density = abs(density_list[0] + density_list[-1])

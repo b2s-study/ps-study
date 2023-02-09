@@ -11,6 +11,7 @@ limit = int(input())
 # ======================= solve ======================= #
 # 핵심 로직 - 상한액 이분 탐색
 # 탐색 범위: 0~국가예산(limit)
+# 시간복잡도: O(logN), N: 최대 예산
 
 min_budget, max_budget = 0, max(budget_list)
 while (True):
