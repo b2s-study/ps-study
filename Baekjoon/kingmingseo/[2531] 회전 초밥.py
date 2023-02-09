@@ -12,8 +12,9 @@ for _ in range(dish):
 
 answer = 0
 
-for i in range(dish - 1):
+for i in range(dish):
     slice_list = list(itertools.islice(sushi_list,0,eat))
+
     temp1 = set(slice_list)
 
     if len(temp1) + 1 > answer and coupon not in temp1:
