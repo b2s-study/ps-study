@@ -57,8 +57,7 @@ for i in range(n):
 			is_possible = False
 			break
 
-		if box[i][j] > max_value:
-			max_value = box[i][j]
+		max_value = max(max_value, box[i][j])
 
 if not is_possible:
 	print(-1)
