@@ -27,7 +27,10 @@ def dfs(v):
 
 n, m, v = map(int, input().rstrip('\n').split())
 
+<<<<<<< HEAD
 #가로 #세로
+=======
+>>>>>>> 40b34034b7cc36630b38201511f26045be4e4322
 graph = [[0] * (n+1) for _ in range(n+1)]
 visited = [0] * (n+1)
 
