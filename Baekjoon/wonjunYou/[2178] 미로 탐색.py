@@ -3,7 +3,6 @@ from collections import deque
 import sys
 
 def bfs(x, y):
-    visited[x][y] = 1
     q = deque()
     q.append((x, y))
 
@@ -32,8 +31,6 @@ maze = [list(map(int, input().rstrip('\n'))) for _ in range(n)]
 
 dx = [-1, 1, 0, 0]
 dy = [0, 0, 1, -1]
-
-visited = [[0] * m for _ in range(n)]
 
 bfs(0, 0)
 
