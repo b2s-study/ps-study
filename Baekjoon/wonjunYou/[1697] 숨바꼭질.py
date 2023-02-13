@@ -13,7 +13,7 @@ def bfs():
 			break
 
 		for np in (point-1, point+1, 2*point):
-			if 0<=np <= 100000 and not points[np]:
+			if 0<= np <= 100000 and not points[np]:
 				points[np] = points[point] + 1
 				q.append(np)
 n, k = map(int , sys.stdin.readline().rstrip('\n').split())
