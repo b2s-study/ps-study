@@ -8,7 +8,8 @@ def bfs(v):
     q.append(v)
     visited[v] = 1
 
-    while q:
+    #큐가 비어있지 않다면 반복 실행
+    while q:  
         v = q.popleft()
         result_for_bfs.append(v)
 
@@ -27,6 +28,7 @@ def dfs(v):
 
 n, m, v = map(int, input().rstrip('\n').split())
 
+#가로 #세로
 graph = [[0] * (n+1) for _ in range(n+1)]
 visited = [0] * (n+1)
 
@@ -42,7 +44,6 @@ dfs(v)
 print(*result_for_dfs)
 
 visited = [0] * (n+1)
-print()
 
 bfs(v)
-print(*result_for_bfs)
+print(result_for_bfs)
