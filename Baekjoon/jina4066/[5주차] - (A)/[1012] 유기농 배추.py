@@ -3,45 +3,53 @@ import sys
 
 input = sys.stdin.readline
 
-dy = [-1, 1, 0, 0]
-dx = [0, 0, -1, 1]
+def bfs(x, y):
+    q = deque()
+    q.append((x, y))
 
+    #방문 노드 0으로 표시
+    graph[x][y] = 0
 
-t = int(input().rstrip('/')) 
-result_list = []
+    while q:
+        x, y = q.popleft()
 
-def make_graph(m, n, k):
+        for i in range(4):
+            nx = x + dx[i]
+            ny = y + dy[i]
+
+            if (0<nx<=50 and 0<ny<=50):
+                if graph[nx][ny] == 1:
+                    q.append((nx, ny))
+                    graph[nx][ny] = 0
+
+    return count
+
+T = int(input().rstrip('\n'))
+
+dx = [-1, 1, 0, 0]
+dy = [0, 0, -1, 1]
+
+# T만큼 배추밭의 가로길이, 세로길이, 배추가 심어져 있는 위치의 개수 입력받는다.
+for _ in range(T):
+    m, n, k = map(int, input().rstrip('\n').split())
+
     graph = [[0] * m for _ in range(n)]
+    count = 0
+
+    # 입력
     for _ in range(k):
-        x, y = map(int, input().split())
-        graph[y][x] = 1
-    return graph
+        x, y = map(int, input().rstrip('\n').split())
+        graph[x][y] == 1
 
-def bfs(y, x):
+    # 시작점 탐색
+    for x in range(m):
+        for y in range(n):
+            if graph[x][y] == 1:
+                bfs(x, y)
+                count += 1
+    # 출력
+    print(count)
 
-    queue = deque([])
-    queue.append([y, x])
+    
 
-    while queue:
-        y, x = queue.pop()
-        for d in range(4):
-            xx = dx[d] + x
-            yy = dy[d] + y
-            if 0 <= xx < m and 0 <= yy < n:
-                if graph[yy][xx] == 1:
-                    graph[yy][xx] = 0
-                    queue.append([yy, xx])
-
-
-for _ in range(t):
-    result = 0
-    m, n, k = map(int, input.split()) # m:가로, n:세로
-    graph = make_graph(m, n, k)
-    for i in range(n): # 세로
-        for j in range(m): # 가로
-            if graph[i][j] == 1:
-                bfs(i, j)
-                result += 1
-    result_list.append(result)
-
-print(*result_list, sep='\n')
+    
