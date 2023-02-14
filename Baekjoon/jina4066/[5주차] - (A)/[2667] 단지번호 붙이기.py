@@ -8,6 +8,7 @@ def bfs(x, y):
     q = deque()
     q.append((x, y))
 
+    #방문한 노드 0으로 표시
     graph[x][y] = 0
     count += 1
 
@@ -21,7 +22,7 @@ def bfs(x, y):
             if (0<=nx<n and 0<=ny<n):
                 if graph[nx][ny] == 1:
                     q.append((nx, ny))
-                    graph[nx][ny] = 0
+                    graph[nx][ny] = 0  # 방문 노드가 1이면 q에 삽입한 후, 0으로 방문처리!
                     count += 1
 
     return count
