@@ -17,7 +17,7 @@ def bfs(x, y):
             nx = x + dx[i]
             ny = y + dy[i]
 
-            if (0<nx<=50 and 0<ny<=50):
+            if (0<=nx<n and 0<=ny<m):
                 if graph[nx][ny] == 1:
                     q.append((nx, ny))
                     graph[nx][ny] = 0
@@ -39,11 +39,11 @@ for _ in range(T):
     # 입력
     for _ in range(k):
         x, y = map(int, input().rstrip('\n').split())
-        graph[x][y] == 1
+        graph[y][x] = 1
 
     # 시작점 탐색
-    for x in range(m):
-        for y in range(n):
+    for x in range(n):
+        for y in range(m):
             if graph[x][y] == 1:
                 bfs(x, y)
                 count += 1
