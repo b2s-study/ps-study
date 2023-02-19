@@ -19,11 +19,11 @@ def bfs():
             next = v + step
 
             if next <= 100 and not visited[next]:
-                if next in ladder.keys():
-                    next = ladder[next]
+                if next in trap.keys():
+                    next = trap[next]
 
-                if next in snake.keys():
-                    next = snake[next]
+                if next in trap.keys():
+                    next = trap[next]
 
                 if not visited[next]:
                     visited[next] = 1
@@ -37,15 +37,14 @@ n, m = map(int, input().rstrip('\n').split())
 board = [0] * 101
 visited = [0] * 101
 
-ladder = dict()
-snake = dict()
+trap = dict()
 
 for _ in range(n):
     start, end = map(int, input().rstrip('\n').split())
-    ladder[start] = end
+    trap[start] = end
 
 for _ in range(m):
     start, end = map(int, input().rstrip('\n').split())
-    snake[start] = end
+    trap[start] = end
 
 bfs()
