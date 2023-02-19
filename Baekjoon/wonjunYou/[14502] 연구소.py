@@ -48,10 +48,9 @@ for wall in c(blank_pos, 3):
 
     bfs(virus)
 
-    for row in range(n):
-        for col in range(m):
-            if test_lab[row][col] == 0:
-                cnt += 1
+    cnt = 0
+    for i in range(n):
+        cnt += test_lab[i].count(0)
 
     result = max(result, cnt)
 
