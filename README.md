@@ -28,6 +28,7 @@
 |3주차|[우선순위 큐, 힙](https://github.com/wonjunYou/PS_study/wiki/3%EC%A3%BC%EC%B0%A8---%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%81%90,-%ED%9E%99)|정동준|
 |4주차|[이분 탐색, 투 포인터](https://github.com/wonjunYou/PS_study/wiki/4%EC%A3%BC%EC%B0%A8---%EC%9D%B4%EB%B6%84-%ED%83%90%EC%83%89,-%ED%88%AC-%ED%8F%AC%EC%9D%B8%ED%84%B0)|김민서|
 |5주차|[BFS, DFS](https://github.com/wonjunYou/PS_study/wiki/5%EC%A3%BC%EC%B0%A8---BFS,-DFS)|유원준|
+|6주차|[재귀](https://github.com/wonjunYou/PS_study/wiki/6%EC%A3%BC%EC%B0%A8----%EC%9E%AC%EA%B7%80)|최고운|
 
 <br>
 
