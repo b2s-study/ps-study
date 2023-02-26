@@ -32,10 +32,9 @@ n, m = map(int, input().rstrip('\n').split())
 board = [list(map(int, input().rstrip('\n'))) for _ in range(n)]
 
 visited = [[[0] * 2 for _ in range(m)] for _ in range(n)]
+
 dx = [-1, 1, 0, 0]
-
 dy = [0, 0, -1, 1]
-
 
 visited[0][0][0] = 1
 
