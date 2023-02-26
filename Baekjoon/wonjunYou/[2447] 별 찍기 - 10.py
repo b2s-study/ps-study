@@ -1,36 +1,31 @@
 import sys
 
-sys.setrecursionlimit(10**4)
-def draw_star(n):
+input = sys.stdin.readline
 
-	global Map
-	if n == 3:
-		for i in range(3):
-			for j in range(3):
-				Map[0][:3] = Map[2][:3] = [1] * 3
-				Map[1][:3] = [1, 0, 1]
-		return
-	a = n//3
-	draw_star(a)
+STAR = "*"
 
-	for i in range(3):
-		for j in range(3):
-			if i == 1 and j == 1:
-				continue
-			else:
-				for k in range(a):
-					Map[a*i + k][a*j : a*(j+1)] = Map[k][:a]
+def draw_star(x, y, size):
+	if size == 3:
+		for row in range(x, x+3):
+			for col in range(y, y+3):
+				if (row - x == 1 and col - y == 1):
+					continue
 
-n = int(sys.stdin.readline().rstrip('\n'))
-Map = [[0 for _ in range(n)] for _ in range(n)]
+				board[row][col] = STAR
 
-draw_star(n)
+	else:
+		next_size = size // 3
+		for row in range(3):
+			for col in range(3):
+				if (row == 1 and col == 1):
+					continue
 
-for i in Map:
-	for j in i:
-		if j:
-			print('*', end="")
-		else:
-			print(' ', end="")
+				draw_star(x + (row * next_size), y + (col * next_size), next_size)
 
-	print()
+n = int(input().rstrip('\n'))
+board = [[" "] * n for _ in range(n)]
+
+draw_star(0, 0, n)
+
+for line in board:
+	print(''.join(line))
