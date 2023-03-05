@@ -2,7 +2,6 @@ import sys
 
 input = sys.stdin.readline
 
-
 def func(cur):
     global cnt
 
