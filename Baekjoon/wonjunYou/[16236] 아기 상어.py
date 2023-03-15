@@ -34,17 +34,16 @@ def bfs(r, c, shark_size):
             ny = y + dy[i]
 
             if 0 <= nx < n and 0 <= ny < n:  # 공간의 범위를 초과하지 않고
-                if not visited[nx][ny]:  # 방문하지 않은 칸에 대해
-                    visited[nx][ny] = 1  # 방문 처리
+                visited[nx][ny] = 1  # 방문 처리
 
-                    # case 0: 이동한 칸이 빈칸
-                    # case 1: 아기 상어와 크기가 같은 물고기
-                    if board[nx][ny] == 0 or board[nx][ny] == shark_size:
-                        q.append((nx, ny, dist + 1))
+                # case 0: 이동한 칸이 빈칸
+                # case 1: 아기 상어와 크기가 같은 물고기
+                if board[nx][ny] == 0 or board[nx][ny] == shark_size:
+                    q.append((nx, ny, dist + 1))
 
-                    # case 2: 아기 상어보다 크기가 작은 물고기
-                    elif board[nx][ny] != 0 and board[nx][ny] < shark_size:
-                        heapq.heappush(eatable, (dist + 1, nx, ny))
+                # case 2: 아기 상어보다 크기가 작은 물고기
+                elif board[nx][ny] != 0 and board[nx][ny] < shark_size:
+                    heapq.heappush(eatable, (dist + 1, nx, ny))
 
     # 여러 물고기들 중 가장 최우선순위 물고기 정보를 반환
     if eatable:  # heapq를 이용하여 O(log(n))에 처리
