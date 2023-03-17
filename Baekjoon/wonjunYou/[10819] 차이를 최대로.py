@@ -14,9 +14,7 @@ def dfs(depth, total, prev):
             if depth > 0:
                 total += abs(prev - numbers[idx])
 
-            prev = numbers[idx]
-
-            dfs(depth + 1, total, prev)
+            dfs(depth + 1, total, numbers[idx])
 
             if depth > 0:
                 total -= abs(prev - numbers[idx])
