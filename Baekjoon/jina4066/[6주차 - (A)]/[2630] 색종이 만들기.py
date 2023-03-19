@@ -20,6 +20,7 @@ def Color(x,y,n):
         blue+=1
         return
 
+
 input = sys.stdin.readline
 
 N=int(input())
