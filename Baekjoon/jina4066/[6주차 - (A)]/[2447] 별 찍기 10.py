@@ -22,4 +22,5 @@ def star(x):
 
     return stars
 
+
 print('\n'.join(star(n)))
