@@ -30,4 +30,5 @@ def bfs():
 MAX = 100000
 n, k = map(int, input().rstrip('\n').split())
 
+
 bfs()
