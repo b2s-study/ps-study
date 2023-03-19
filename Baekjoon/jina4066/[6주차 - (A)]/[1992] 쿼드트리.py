@@ -31,4 +31,5 @@ def dfs(x, y, n):
     else:
         print(0, end='')
 
+
 dfs(0, 0, n)
