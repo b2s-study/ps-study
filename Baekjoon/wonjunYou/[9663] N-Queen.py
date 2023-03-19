@@ -24,7 +24,6 @@ def func(cur):
         isused2[i + cur] = 0
         isused3[cur - i + n - 1] = 0
 
-
 n = int(input().rstrip('\n'))
 
 cnt = 0
