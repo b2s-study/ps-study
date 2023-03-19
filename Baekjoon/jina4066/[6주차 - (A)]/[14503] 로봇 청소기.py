@@ -47,7 +47,6 @@ dfs(r, c, d)
 print(count)
 
 
-
 # while True:
 #     flag = 0 #청소 전
 
