@@ -28,5 +28,5 @@ if r == 0 and c == 1:
 if r == 1 and c == 0:
     print(cnt + 2)
 if r == 1 and c == 1:
-    print(cnt + 3)
+    print(cnt+3)
 
