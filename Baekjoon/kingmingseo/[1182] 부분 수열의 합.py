@@ -2,7 +2,7 @@ import sys
 input = sys.stdin.readline
 n, s = map(int, input().split())
 arr = list(map(int, input().split()))
-answer = 0
+answer =0
 
 def func(idx,sub_sum):
     global answer
