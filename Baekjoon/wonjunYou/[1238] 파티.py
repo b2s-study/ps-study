@@ -24,12 +24,16 @@ def dijkstra(start, end):
 
 N, M, X = map(int, input().split())
 graph = [[] for _ in range(N + 1)]
+
 for _ in range(M):
     a, b, w = map(int, input().split())
     graph[a].append((b, w))
+
 t = 0
 for i in range(1, N + 1):
     if i == X:
         continue
+
     t = max(t, dijkstra(i, X) + dijkstra(X, i))
+
 print(t)
