@@ -36,6 +36,7 @@ def simulate(srow, scol):
 
             fish_size = sea[nrow][ncol]
             if simulation[row][col] >= min_time:
+                shark.eat()
                 return fish_list[0]
 
             if simulation[nrow][ncol] == 0 and fish_size <= shark.size:
@@ -44,25 +45,25 @@ def simulate(srow, scol):
 
             if fish_size != 0 and shark.size > fish_size:
                 if min_time == sys.maxsize:
-                    shark.eat()
                     min_time = simulation[nrow][ncol]
                     # print("min_time >>", min_time)
 
                 heapq.heappush(fish_list, (nrow, ncol))
                 # print(fish_list)
     if len(fish_list) != 0:
+        shark.eat()
         return fish_list[0]
     return (-1, -1)
 
 
 def update(row, col):
     global simulation, time, shark
-    print("========eat=========")
-    print("row, col, time, shark.size", row, col, time, shark.size)
+    # print("========eat=========")
+    # print("row, col, time, shark.size", row, col, time, shark.size)
     simulation = [[0]*N for _ in range(N)]
     sea[row][col] = 0
-    for li in sea:
-        print(li)
+    # for li in sea:
+    #     print(li)
 
 
 input = sys.stdin.readline
