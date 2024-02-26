@@ -2,8 +2,8 @@
 
 > 코딩 테스트 대비를 위한 백준, 프로그래머스 문제 풀이 스터디입니다.
 
-기간 : 2023. 01. 07 ~   
-일시 : 매주 일요일 10:30
+기간 : 2023. 01. 07 ~  2023.04.03   
+일시 : 매주 일요일 10:30 - 13:00
 
 백준 그룹 : [이 코드로 잠이 오냐](https://www.acmicpc.net/group/16402)
 
@@ -30,6 +30,10 @@
 |5주차|[BFS, DFS](https://github.com/wonjunYou/PS_study/wiki/5%EC%A3%BC%EC%B0%A8---BFS,-DFS)|유원준|
 |6주차|[재귀](https://github.com/wonjunYou/PS_study/wiki/6%EC%A3%BC%EC%B0%A8----%EC%9E%AC%EA%B7%80)|최고운|
 |7, 8주차|[백트래킹](https://github.com/wonjunYou/PS_study/wiki/7%EC%A3%BC%EC%B0%A8-%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9)|정동준|
+|9주차|[다익스트라](https://github.com/b2s-study/ps-study/wiki/9%EC%A3%BC%EC%B0%A8---%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BC)|유원준|
+|10주차|[벨만-포드](https://github.com/b2s-study/ps-study/wiki/10%EC%A3%BC%EC%B0%A8-%EB%B2%A8%EB%A7%8C-%ED%8F%AC%EB%93%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)|김민서|
+|10주차|[플로이드-워샬](https://github.com/b2s-study/ps-study/wiki/10%EC%A3%BC%EC%B0%A8-%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%9B%8C%EC%83%AC)|최고운|
+|11주차|[다이나믹 프로그래밍](https://accidental-occupation-263.notion.site/Dynamic-Programming-4e89f1c4bd01412d9c772447d746fc35)|정동준|
 
 <br>
 
